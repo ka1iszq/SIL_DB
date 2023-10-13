@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Paytone+One" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Bai Jamjuree" />
+    <!--icon-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.4/iconify-icon.min.js"></script>
+    <link href='https://css.gg/toggle-off.css' rel='stylesheet'>
+    <!--css-->
+    <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+    <ul class="navtop">
+        <li id="title">Planner</li>
+        <li><a class="navb" href="log">Hello dokidoki</a></li>
+        <li><a class="navb" id="noti"  href="noti"><iconify-icon icon="bi:bell" style="color: #f9f9f9;" width="20" height="20" ></iconify-icon></a></li>
+        <li id="shp"><a class="navb" href="shop"><iconify-icon icon="ic:round-shopping-cart" style="color: #c8cce0;" width="20" height="20" id="shop"></iconify-icon>shop</a></li>
+        <li id="fav"><a class="navb" href="fav"><iconify-icon icon="el:heart-alt" style="color: #bbbed7;" width="20" height="20"  id="heart"></iconify-icon>fav</a></li>
+    </ul>
+    <nav class="row">
+        <a href="ho" style="color: #5F689F;">home</a>
+        <a href="bu" style="color: #5F689F;">bullet journal</a>
+        <a href="cal.html" style="color: #5F689F;">calender</a>
+        <a href="vi" style="color: #5F689F;">video</a>
+        <a href="sh" style="color: #5F689F;">shops</a>
+        <a href="to" style="color: #5F689F;">to do list</a>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="left-side">
+                <h1 class="headToDo">To do list</h1>
+                <div class="borderTime">
+                    <p class="time">6 AM <input type="text" id="namee" name="name" placeholder="" style="border: none; background: transparent; border-bottom: 1px solid  #000; width: 380px;"></p>
+                    <p class="time">7 AM <input type="text" id="namee" name="name" placeholder="" style="border: none; background: transparent; border-bottom: 1px solid  #000; width: 380px;"></p>
+                    <p class="time">8 AM <input type="text" id="namee" name="name" placeholder="" style="border: none; background: transparent; border-bottom: 1px solid  #000; width: 380px;"></p>
+                    <p class="time">9 AM <input type="text" id="namee" name="name" placeholder="" style="border: none; background: transparent; border-bottom: 1px solid  #000; width: 380px;"></p>
+                    <p class="time">10 AM <input type="text" id="namee" name="name" placeholder="" style="border: none; background: transparent; border-bottom: 1px solid  #000; width: 380px;"></p>
+                </div>
+                <table class="table">
+                    <tr>
+                        <td class="cell1"></td>
+                        <td class="cell1">NUTRITION</td>
+                        <td class="cell1"></td>
+                    </tr>
+                    <tr class="g">
+                        <td class="cell2">BREKFAST</td>
+                        <td class="cell3">LUNCH</td>
+                        <td class="cell4">DINNER</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right-side">
+                <p class="date">DATE</p>
+                <p class="note">NOTE</p>
+                <p class="note_space"></p>
+                <p class="note">TODAY'S GOAL</p>
+                <p class="goal"></p>
+                <p class="goal"></p>
+                <p class="goal"></p>
+                <p class="goal"></p>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>
